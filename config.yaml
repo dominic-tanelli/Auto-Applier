@@ -1,27 +1,27 @@
-remote: [true]
+remote: true
 
 experienceLevel:
- internship: [false]
- entry: [true]
- associate: [true]
- mid-senior level: [true]
- director: [false]
- executive: [false]
+ internship: false
+ entry: true
+ associate: true
+ mid-senior level: true
+ director: false
+ executive: false
 
 jobTypes:
- full-time: [true]
- contract: [false]
- part-time: [false]
- temporary: [false]
- internship: [false]
- other: [false]
- volunteer: [false]
+ full-time: true
+ contract: false
+ part-time: false
+ temporary: false
+ internship: false
+ other: false
+ volunteer: false
 
 date:
- all time: [true]
- month: [true]
- week: [true]
- 24 hours: [true]
+ all time: true
+ month: true
+ week: true
+ 24 hours: true
 
 positions:
   - Program Manager
@@ -41,4 +41,10 @@ positions:
   - Risk Manager
 
 locations:
-  - United States
+  - USA
+
+distance:
+
+companyBlacklist:
+
+titleBlacklist:
