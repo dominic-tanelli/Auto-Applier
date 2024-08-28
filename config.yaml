@@ -1,0 +1,44 @@
+remote: [true]
+
+experienceLevel:
+ internship: [false]
+ entry: [true]
+ associate: [true]
+ mid-senior level: [true]
+ director: [false]
+ executive: [false]
+
+jobTypes:
+ full-time: [true]
+ contract: [false]
+ part-time: [false]
+ temporary: [false]
+ internship: [false]
+ other: [false]
+ volunteer: [false]
+
+date:
+ all time: [true]
+ month: [true]
+ week: [true]
+ 24 hours: [true]
+
+positions:
+  - Program Manager
+  - Product Manager
+  - Operations Manager
+  - Business Development Manager
+  - Portfolio Manager
+  - Consultant
+  - Change Management Specialist
+  - Strategy Analyst
+  - Strategy Manager
+  - Operations Research Analyst
+  - Chief of Staff
+  - Client Services Manager
+  - Account Manager
+  - Supply Chain Manager
+  - Risk Manager
+
+locations:
+  - United States
