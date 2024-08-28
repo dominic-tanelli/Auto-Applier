@@ -8,25 +8,17 @@ personal_information:
   phone_prefix: "+1"
   phone: "9738859681"
   email: "dominictanelli@me.com"
-  linkedin: "linkedin.com/in/dominictanelli"
 
 education_details:
-  - degree: "[Your Degree]"
-    university: "[Your University]"
-    gpa: "[Your GPA]"
-    graduation_year: "[Year of Graduation]"
-    field_of_study: "[Your Field of Study]"
-    exam:
-      [Course Name 1]: "[Grade]"
-      [Course Name 2]: "[Grade]"
-      [Course Name 3]: "[Grade]"
-      [Course Name 4]: "[Grade]"
-      [Course Name 5]: "[Grade]"
+  - degree: "Bachelor of Arts"
+    university: "Hamilton College"
+    graduation_year: "2025"
+    field_of_study: "Data Science and Economics"
 
 experience_details:
-  - position: "[Your Job Title]"
-    company: "[Company Name]"
-    employment_period: "[Start Date] - [End Date]"
+  - position: "Executive Board Chair of Program Management"
+    company: "AppDev at Hamilton"
+    employment_period: "08/2023 - Present"
     location: "[Location]"
     industry: "[Industry]"
     key_responsibilities:
