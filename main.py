@@ -47,22 +47,7 @@ class ConfigValidator:
             'date': dict,
             'positions': list,
             'locations': list,
-            'distance': int,
-            'companyBlacklist': list,
-            'titleBlacklist': list
         }
-
-        for key, expected_type in required_keys.items():
-            if key not in parameters:
-                if key in ['companyBlacklist', 'titleBlacklist']:
-                    parameters[key] = []
-                else:
-                    raise ConfigError(f"Missing or invalid key '{key}' in config file {config_yaml_path}")
-            elif not isinstance(parameters[key], expected_type):
-                if key in ['companyBlacklist', 'titleBlacklist'] and parameters[key] is None:
-                    parameters[key] = []
-                else:
-                    raise ConfigError(f"Invalid type for key '{key}' in config file {config_yaml_path}. Expected {expected_type}.")
 
         experience_levels = ['internship', 'entry', 'associate', 'mid-senior level', 'director', 'executive']
         for level in experience_levels:
@@ -84,19 +69,7 @@ class ConfigValidator:
         if not all(isinstance(loc, str) for loc in parameters['locations']):
             raise ConfigError(f"'locations' must be a list of strings in config file {config_yaml_path}")
 
-        approved_distances = {0, 5, 10, 25, 50, 100}
-        if parameters['distance'] not in approved_distances:
-            raise ConfigError(f"Invalid distance value in config file {config_yaml_path}. Must be one of: {approved_distances}")
-
-        for blacklist in ['companyBlacklist', 'titleBlacklist']:
-            if not isinstance(parameters.get(blacklist), list):
-                raise ConfigError(f"'{blacklist}' must be a list in config file {config_yaml_path}")
-            if parameters[blacklist] is None:
-                parameters[blacklist] = []
-
         return parameters
-
-
 
     @staticmethod
     def validate_secrets(secrets_yaml_path: Path) -> tuple:
@@ -187,7 +160,6 @@ def create_and_run_bot(email: str, password: str, parameters: dict, openai_api_k
         print(f"WebDriver error occurred: {e}")
     except Exception as e:
         raise RuntimeError(f"Error running the bot: {str(e)}")
-
 
 @click.command()
 @click.option('--resume', type=click.Path(exists=True, file_okay=True, dir_okay=False, path_type=Path), help="Path to the resume PDF file")
