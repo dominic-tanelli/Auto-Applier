@@ -1,92 +1,66 @@
 personal_information:
   name: "Dominic"
   surname: "Tanelli"
-  date_of_birth: "02/12/2002"
-  country: "United States"
-  city: "Clinton"
-  address: "Hamilton College"
   phone_prefix: "+1"
   phone: "9738859681"
   email: "dominictanelli@me.com"
 
 education_details:
-  - degree: "Bachelor of Arts"
-    university: "Hamilton College"
-    graduation_year: "2025"
+  - college: "Hamilton College"
+    location: "Clinton, New York, USA"
+    degree: "Bachelor of Arts"
     field_of_study: "Data Science and Economics"
+    graduation_year: "May 2025"
+    scholastic_honors: "John H. Behr Scholarship, Class of 2006 Research Prize, Featured Student Publication, Dean's List (all semesters)"
 
 experience_details:
-  - position: "Executive Board Chair of Program Management"
-    company: "AppDev at Hamilton"
-    employment_period: "08/2023 - Present"
-    location: "[Location]"
-    industry: "[Industry]"
+  - company: "AppDev at Hamilton"
+    location: "Clinton, New York, USA"
+    position: "Executive Board Chair of Program Management"
+    employment_period: "Aug 2023 - Present"
     key_responsibilities:
-      - responsibility_1: "[Key Responsibility 1]"
-      - responsibility_2: "[Key Responsibility 2]"
-      - responsibility_3: "[Key Responsibility 3]"
-    skills_acquired:
-      - "[Skill 1]"
-      - "[Skill 2]"
-      - "[Skill 3]"
+      - responsibility_1: "Led a cross-functional team of 15 developers and designers, collaborating effectively to launch 3 major app projects and increasing user engagement by 25%"
+      - responsibility_2: "Handled a $1,000 budget, optimizing costs by 10% while maintaining high project quality and meeting deadlines"
+      - responsibility_3: "Adopted Agile methodologies, reducing project development time by 30% and boosting team efficiency by 20%"
+      
+  - company: "Amazon"
+    location: "Teterboro, New Jersey, USA"
+    position: "Operations Manager I Intern - Sortation Program Management"
+    employment_period: "May 2024 - Jul 2024"
+    key_responsibilities:
+      - responsibility_1: "Partnered with multiple stakeholders to manage 4 10-week sortation programs, leading to a 20% reduction in missorted packages and $1.5 million cost savings"
+      - responsibility_2: "Utilized data analysis to assist in the launch of 270 ProGloves, causing a 30% decrease in error rates and a 20% increase in output"
+      - responsibility_3: "Developed PowerPoint slides to help educate nearly 200 outbound associates about wearing proper equipment, resulting in a 15% improvement in sorting accuracy"
+      - responsibility_4: "Designed and tested prototypes for 180 outbound chutes and 210 delivery shuttles, enhancing efficiency by 5%"
 
-projects:
-  - name: "[Project Name]"
-    description: "[Brief Description of the Project]"
-    link: "[Project URL]"
-  - name: "[Project Name]"
-    description: "[Brief Description of the Project]"
-    link: "[Project URL]"
+  - company: "Maurice Horowitch Career Center"
+    location: "Clinton, New York, USA"
+    position: "Joan Hinde Stewart Scholar - Program Management"
+    employment_period: "Aug 2021 - Aug 2023"
+    key_responsibilities:
+      - responsibility_1: "Engaged with over 1,000 program management professionals from Fortune 500 companies, expanding network connections by 95%"
+      - responsibility_2: "Participated in over 35 career building conferences, contributing to the creation of 10 new program strategies"
+      - responsibility_3: "Secured $5,000 in funding for career program development, supporting growth opportunities for 50 participants"
+  
+  - company: "Foodtown"
+    location: "Caldwell, New Jersey, USA"
+    position: "Cashier and Training Program Manager Assistant"
+    employment_period: "Jun 2019 - Aug 2021"
+    key_responsibilities:
+      - responsibility_1: "Served over 150 customers and carried out 5 orders across Instacart, Uber Eats, and Doordash on a weekly basis, achieving a 95% customer satisfaction rate and assuring timely delivery"
+      - responsibility_2: "Executed a 3-day training program for over 10 cashiers to properly operate Toshiba/IBM SurePOS systems, resulting in a 25% reduction in checkout times and a 15% decrease in transaction errors"
+      - responsibility_3: "Communicated with vendors across 35 multinational consumer goods companies, insuring proper organization of products across 15 departments"    
+      - responsibility_4: "Controlled over $1,000 in cash transactions and $2,000 in credit card transactions across 4 major card networks on a weekly basis, yielding a 99% transaction accuracy rate and compliance with payment processing protocols" 
 
-achievements:
-  - name: "[Achievement Title]"
-    description: "[Brief Description of the Achievement]"
-  - name: "[Achievement Title]"
-    description: "[Brief Description of the Achievement]"
+  - company: "Saint Aloysius Parish"
+    location: "Caldwell, New Jersey, USA"
+    position: "Advocate and Youth Group Program Manager Assistant"
+    employment_period: "Sep 2016 - Jun 2019"
+    key_responsibilities:
+      - responsibility_1: "Established and enacted 50 targeted outreach initiatives and engaging activities, contributing to a growth in youth group participation by 30%"
+      - responsibility_2: "Coordinated 5 community events annually for nearly 7,000 residents, resulting in a 25% growth in parish support"
+      - responsibility_3: "Spearheaded a yearly Good Friday play, managing a team of over 10 participants and overseeing all aspects of production, resulting in a successful event with an audience increase of 20% year-over-year"    
 
-certifications:
-  - "[Certification Name]"
-
-languages:
-  - language: "[Language Name]"
-    proficiency: "[Proficiency Level]"
-  - language: "[Language Name]"
-    proficiency: "[Proficiency Level]"
-
-interests:
-  - "[Interest 1]"
-  - "[Interest 2]"
-  - "[Interest 3]"
-  - "[Interest 4]"
-  - "[Interest 5]"
-
-availability:
-  notice_period: "[Notice Period]"
-
-salary_expectations:
-  salary_range_usd: "[Expected Salary Range in USD]"
-
-self_identification:
-  gender: "[Gender]"
-  pronouns: "[Pronouns]"
-  veteran: "[Veteran Status]"
-  disability: "[Disability Status]"
-  ethnicity: "[Ethnicity]"
-
-legal_authorization:
-  eu_work_authorization: "[Yes/No]"
-  us_work_authorization: "[Yes/No]"
-  requires_us_visa: "[Yes/No]"
-  requires_us_sponsorship: "[Yes/No]"
-  requires_eu_visa: "[Yes/No]"
-  legally_allowed_to_work_in_eu: "[Yes/No]"
-  legally_allowed_to_work_in_us: "[Yes/No]"
-  requires_eu_sponsorship: "[Yes/No]"
-
-work_preferences:
-  remote_work: "[Yes/No]"
-  in_person_work: "[Yes/No]"
-  open_to_relocation: "[Yes/No]"
-  willing_to_complete_assessments: "[Yes/No]"
-  willing_to_undergo_drug_tests: "[Yes/No]"
-  willing_to_undergo_background_checks: "[Yes/No]"
+technical_skills:
+  programming: "C, C++, PowerShell, MATLAB, Python, R, Stata, Bash, CSS, Java, JavaScript, PostgreSQL, SQL, Flask"
+  software: "Adobe, Apple, Samsung, Google Suite, Autodesk, Wix, Unity, Bloomberg, Microsoft 365, Grammarly, LaTeX"
